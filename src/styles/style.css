@@ -1,5 +1,66 @@
 /** CSS STYLE **/
 
+/*Import Fonts */
+@font-face { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+@font-face {
+  font-family: Neucha;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
+}
+
+/* COLOURS */
+:root {
+  --white: #fff;
+  --semi-transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --dark-primary: #42413c;
+  --dark: #2a2626;
+  --semi-transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+
+body {
+  
+  /* FONT */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+
+/* All TITTLES */
+.tittle {
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+.tittle h1 {
+  font-size: 72px;
+}
+
+.tittle h2 {
+  font-size: 60px;
+}
+
+.tittle h3 {
+  font-size: 34px;
+}
+
+/* SECTIONS */
+section {
+  max-width: 1110px;
+  margin: 100px auto;
+}
+
+
 .hello {
   display: block;
 
