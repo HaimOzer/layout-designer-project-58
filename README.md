@@ -1,18 +1,5 @@
-# HTML/CSS Boilerplate
+## Cognitive Distortion
 
-## Setup
-
-```bash
-make install
-```
-
-## Run lint
-
-```bash
-make lint
-```
-
----
 
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io?utm_source=github&utm_medium=link&utm_campaign=html-boilerplate)
 
