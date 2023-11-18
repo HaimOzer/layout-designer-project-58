@@ -1,17 +1,7 @@
 /** CSS STYLE **/
 
 /* Import Fonts */
-@font-face { 
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-}
-
-@font-face {
-  font-family: Neucha;
-  font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
 
 /* COLOURS */
 :root {
@@ -45,25 +35,27 @@ body::before {
   background-image: url('../images/background.png'); 
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9; 
+  opacity: 0.1; 
   z-index: -1; 
 }
 
-/* All TITTLES */
-.tittle {
+
+/* All TITLES */
+.title {
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
+  font-weight: 400;
 }
 
-.tittle h1 {
+h1 {
   font-size: 72px;
 }
 
-.tittle h2 {
+h2 {
   font-size: 60px;
 }
 
-.tittle h3 {
+h3 {
   font-size: 34px;
 }
 
@@ -73,6 +65,29 @@ section {
   margin: 100px auto;
 }
 
+/* HEADER */
+.header-container {
+  position: relative;
+}
+
+.logo-header {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+}
+
+.link-header-button {
+  background: var(--primary, #FE8A02);
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  color: var(--white, #FFF);
+}
+
+.orange {
+  color: var(--primary, #FE8A02);
+}
 
 .hello {
   display: block;
