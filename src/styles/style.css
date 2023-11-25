@@ -1,82 +1,118 @@
-/** CSS STYLE **/
+/* STYLES CSS */
 
-/* Import Fonts */
-@font-face { 
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-}
+/* FONTS IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap");
 
-@font-face {
-  font-family: Neucha;
-  font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
-}
-
-/* COLOURS */
+/* COLORS */
 :root {
   --white: #fff;
-  --semi-transparent-white: #d7ccc0;
-  --light: #f5f4f0;
-  --primary: #fe8a02;
-  --dark-primary: #42413c;
+  --white-transparent: #d7ccc0;
+  --accent: #fe8a02;
+  --dark-accent: #42413c;
   --dark: #2a2626;
-  --semi-transparent-dark: #908d8b;
+  --dark-transparent: #908d8b;
   --brown: #b09a81;
+  --light: #f5f4f0;
   --blue: #1085c5;
 }
 
-body {  
-/* FONT */
-  font-family: 'Open Sans', sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  /* FONT */
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
 }
 
-/* Background */
-body::before {
-  content: '';
+/* BACKGROUND */
+section::before {
+  content: "";
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9; 
-  z-index: -1; 
+  opacity: 0.1;
 }
 
-
-/* All TITTLES */
-.tittle {
+/* TITLES */
+.title {
+  padding: 0;
+  margin: 0;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
+  font-weight: 400;
 }
 
-.tittle h1 {
+h1 {
   font-size: 72px;
 }
 
-.tittle h2 {
+h2 {
   font-size: 60px;
 }
 
-.tittle h3 {
+h3 {
   font-size: 34px;
 }
 
 /* SECTIONS */
 section {
-  max-width: 1110px;
-  margin: 100px auto;
+  position: relative;
+  padding: 100px 0;
+  background: var(--light);
 }
 
+/* HEADER */
+.title-container {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+}
 
-.hello {
+.logo-header {
   display: block;
+  height: 525px;
+  position: absolute;
+  top: 55px;
+  right: -270px;
+}
 
-  color: #fff;
+.btn-header {
+  text-transform: uppercase;
+  display: inline-block;
+  background: var(--accent, #fe8a02);
+  border: none;
+  padding: 12px 24px;
+  margin-top: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--white, #fff);
+  cursor: pointer;
+}
+
+.orange-txt {
+  color: var(--accent, #fe8a02);
+}
+
+/* COLUMNS */
+.col-flex-container {
+  display: flex;
+  gap: 30px;
+}
+
+.col-flex-container > * {
+  flex-basis: 50%;
+}
+
+.header-text {
+  margin-top: 185px;
+  position: relative;
 }
