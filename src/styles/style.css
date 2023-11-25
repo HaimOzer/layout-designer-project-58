@@ -34,6 +34,22 @@ body {
   color: #2A2626;
 }
 
+/* Background */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9; 
+  z-index: -1; 
+}
+
+
 /* All TITTLES */
 .tittle {
   font-family: Neucha, sans-serif;
