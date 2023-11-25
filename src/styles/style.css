@@ -49,16 +49,20 @@ section::before {
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
+  font-weight: 400;
 }
 
+h1 {
 h1 {
   font-size: 72px;
 }
 
 h2 {
+h2 {
   font-size: 60px;
 }
 
+h3 {
 h3 {
   font-size: 34px;
 }
