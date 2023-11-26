@@ -1,7 +1,7 @@
 /** CSS STYLE **/
 
 /* Import Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap");
 
 /* COLOURS */
 :root {
@@ -16,29 +16,28 @@
   --blue: #1085c5;
 }
 
-body {  
-/* FONT */
-  font-family: 'Open Sans', sans-serif;
+body {
+  /* FONT */
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 /* Background */
 body::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.1; 
-  z-index: -1; 
+  opacity: 0.1;
+  z-index: -1;
 }
-
 
 /* All TITLES */
 .title {
@@ -78,15 +77,15 @@ section {
 }
 
 .link-header-button {
-  background: var(--primary, #FE8A02);
+  background: var(--primary, #fe8a02);
   border: none;
   padding: 12px 24px;
   font-weight: bold;
-  color: var(--white, #FFF);
+  color: var(--white, #fff);
 }
 
 .orange {
-  color: var(--primary, #FE8A02);
+  color: var(--primary, #fe8a02);
 }
 
 .hello {
