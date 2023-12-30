@@ -1,22 +1,25 @@
-/** CSS STYLE **/
+/* STYLES CSS */
 
-/* Import Fonts */
+/* FONTS IMPORT */
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap");
 
-/* COLOURS */
+/* COLORS */
 :root {
   --white: #fff;
-  --semi-transparent-white: #d7ccc0;
-  --light: #f5f4f0;
-  --primary: #fe8a02;
-  --dark-primary: #42413c;
+  --white-transparent: #d7ccc0;
+  --accent: #fe8a02;
+  --dark-accent: #42413c;
   --dark: #2a2626;
-  --semi-transparent-dark: #908d8b;
+  --dark-transparent: #908d8b;
   --brown: #b09a81;
+  --light: #f5f4f0;
   --blue: #1085c5;
 }
 
 body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
   /* FONT */
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -24,9 +27,10 @@ body {
   color: #2a2626;
 }
 
-/* Background */
-body::before {
+/* BACKGROUND */
+section::before {
   content: "";
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -36,13 +40,19 @@ body::before {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-  z-index: -1;
 }
 
-/* All TITLES */
+.no-pe::before {
+  content: "" !important;
+  background: none !important;
+}
+/* TITLES */
 .title {
+  padding: 0;
+  margin: 0;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
+  font-weight: 400;
   font-weight: 400;
 }
 
@@ -60,36 +70,62 @@ h3 {
 
 /* SECTIONS */
 section {
-  max-width: 1110px;
-  margin: 100px auto;
+  position: relative;
+  padding: 100px 0;
+  background: var(--light);
 }
 
 /* HEADER */
-.header-container {
+.title-container {
   position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .logo-header {
-  position: absolute;
+  display: block;
   height: 525px;
+  position: absolute;
   top: 55px;
-  right: -270px;
+  right: -115px;
 }
 
-.link-header-button {
-  background: var(--primary, #fe8a02);
+.btn-header {
+  text-transform: uppercase;
+  display: inline-block;
+  background: var(--accent, #fe8a02);
   border: none;
   padding: 12px 24px;
-  font-weight: bold;
+  margin-top: 24px;
+  font-weight: 700;
+  text-decoration: none;
   color: var(--white, #fff);
+  cursor: pointer;
 }
 
-.orange {
-  color: var(--primary, #fe8a02);
+.orange-txt {
+  color: var(--accent, #fe8a02);
 }
 
-.hello {
-  display: block;
+/* COLUMNS */
+.col-flex-container {
+  display: flex;
+  gap: 30px;
+}
 
-  color: #fff;
+.col-flex-container > * {
+  flex-basis: 50%;
+}
+
+.header-text {
+  margin-top: 185px;
+  position: relative;
+}
+
+.mg-top-30 {
+  margin-top: 30px;
+}
+
+.bg-white {
+  background-color: var(--white);
 }
