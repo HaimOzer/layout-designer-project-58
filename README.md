@@ -3,7 +3,7 @@
 
 Welcome to our landing page dedicated to cognitive distortions!  
 Here, we explore some of the interesting and often overlooked aspects that influence our thinking and decision-making.  
-Link to website: [ roomy-fish.surge.sh](roomy-fish.surge.sh)
+Link to [website:](https://roomy-fish.surge.sh/)
 
 ### Website Goal:
 
