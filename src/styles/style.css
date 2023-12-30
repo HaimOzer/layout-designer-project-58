@@ -108,7 +108,7 @@ body {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: url('../images/background.png');
+	background: url('../img/background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.1;
@@ -140,8 +140,6 @@ body {
 .header-text {
 	margin-top: 185px;
 	position: relative;
-	max-width: 1110px;
-	margin: 0 auto;
 }
 
 .header-btn {
@@ -303,7 +301,7 @@ body {
 }
 
 .footer-form-btn::before {
-	content: url('../images/send.svg');
+	content: url('../img/send.svg');
 	width: 24px;
 	height: 24px;
 }
