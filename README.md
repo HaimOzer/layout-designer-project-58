@@ -2,8 +2,8 @@
 <img src="src/images/carbon (1).png" alt="Icon" width="80%" height="90%">
 
 Welcome to our landing page dedicated to cognitive distortions!  
-Here, we explore some of the interesting and often overlooked aspects that influence our thinking and decision-making.
-
+Here, we explore some of the interesting and often overlooked aspects that influence our thinking and decision-making.  
+Link to [website:](roomy-fish.surge.sh)
 
 ### Website Goal:
 
