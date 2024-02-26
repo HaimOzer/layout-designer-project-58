@@ -1,10 +1,7 @@
 ## Cognitive Distortions Landing
 
 Welcome to our landing page dedicated to cognitive distortions!  
-Here, we explore some of the interesting and often overlooked aspects that influence our thinking and decision-making.  
-Link to [website:](https://roomy-fish.surge.sh/)
 
-### Website Goal:
 
 - Unraveling the mysteries of human thinking through an engaging exploration of cognitive distortions.
 
@@ -13,11 +10,11 @@ Link to [website:](https://roomy-fish.surge.sh/)
 - Aiding in understanding essential aspects of decision-making psychology, fostering self-awareness, and understanding others.  
 - Providing education on effective overcoming of cognitive distortions, which can enhance the quality of decision-making.
 
+
 ```
 Make decisions on a new level:  
   learn to unravel cognitive distortions and shape your own thinking!
 ```
-
 
 ---
 
